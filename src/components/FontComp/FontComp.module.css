@@ -49,9 +49,9 @@
 }
 
 .bannerImg {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
+  border-radius: 61px 63px 200px 200px;
+  box-shadow: 8px 9px 12px 2px #8080807a;
+  height: 300px;
 }
 
 
@@ -60,16 +60,13 @@
     width: auto;
     font-size: 1rem;
   }
-  .bannerImg {
-    max-width: 300px;
-  }
 }
 
 @media (max-width: 850px) {
   .container {
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: 20px
+    margin-top: 100px;
   }
   .main {
     font-size: 1.1rem;
@@ -77,15 +74,13 @@
   .transitionsItem {
     font-size: inherit;
   }
-  .bannerImg {
-    max-width: 250px;
-  }
+
 }
 
 @media (max-width: 480px) {
   .container {
     width: 95%;
-    margin-top: 20px;
+    margin-top: 100px;
   }
   .main {
     font-size: 0.8rem; 
@@ -93,7 +88,5 @@
   .transitionsItem {
     font-size: inherit;
   }
-  .bannerImg {
-    max-width: 200px;
-  }
+
 }

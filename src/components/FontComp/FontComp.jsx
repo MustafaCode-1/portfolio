@@ -4,6 +4,7 @@ import instaIcon from "../../assets/insta.png";
 import githubIcon from "../../assets/git.png";
 import linkedinIcon from "../../assets/linkedin.png";
 import developerImg from "../../assets/developer.png";
+import mustafa from "../../assets/mustafa.jpeg";
 import CV from "../../assets/cv.pdf";
 
 import styles from "./FontComp.module.css";
@@ -75,7 +76,7 @@ const FontComp = () => {
       <div className={styles.main}>
         {transitions(({ innerHeight, ...rest }, item) => (
           <animated.div
-            key={item} 
+            key={item}
             className={styles.transitionsItem}
             style={rest}
             onClick={reset}
@@ -87,7 +88,6 @@ const FontComp = () => {
         ))}
         <span className={styles.icons}>
           {[
-           
             {
               href: "https://github.com/MustafaCode-1",
               src: githubIcon,
@@ -102,14 +102,9 @@ const FontComp = () => {
               href: "https://www.instagram.com/shayan_s.ig/?igsh=Yjl3Y3pxbmp0aWIz&utm_source=qr",
               src: instaIcon,
               alt: "Insta icon",
-            }
+            },
           ].map(({ href, src, alt }) => (
-            <a
-              key={alt} 
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer" 
-            >
+            <a key={alt} href={href} target="_blank" rel="noopener noreferrer">
               <animated.img
                 src={src}
                 alt={alt}
@@ -127,15 +122,15 @@ const FontComp = () => {
           </a>
         </div>
       </div>
-      <animated.img
-        src={developerImg}
-        alt="Developer"
-        className={styles.bannerImg}
-        style={getSpringProps(hoveredImage === "Developer")}
-        onMouseEnter={handleMouseEnter("Developer")}
-        onMouseLeave={handleMouseLeave}
-      />
-    </div>
+        <animated.img
+          src={mustafa}
+          alt="Developer"
+          className={styles.bannerImg}
+          style={getSpringProps(hoveredImage === "Developer")}
+          onMouseEnter={handleMouseEnter("Developer")}
+          onMouseLeave={handleMouseLeave}
+        />
+      </div>
   );
 };
 
