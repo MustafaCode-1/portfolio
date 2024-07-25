@@ -6,7 +6,7 @@ const experiences = [
   {
     company: 'Iorta Solutions Technology',
     role: 'Senior Software Engineer',
-    period: 'Sep 2024 – Present',
+    period: 'Sep 2023 – Present',
     description: 'Worked on SalesDrive core product - HotForm for dynamic form creation through drag and drop. Also worked on SalesDrive-ChatBot for insurance leads processing.',
   },
   {
