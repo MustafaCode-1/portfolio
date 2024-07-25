@@ -80,7 +80,7 @@
 @media (max-width: 480px) {
   .container {
     width: 95%;
-    margin-top: 100px;
+    margin-top: 80px;
   }
   .main {
     font-size: 0.8rem; 
