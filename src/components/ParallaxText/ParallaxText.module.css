@@ -1,0 +1,26 @@
+.parallax {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .scroller {
+    display: inline-block;
+    white-space: nowrap;
+
+  }
+  
+  .scroller span {
+    display: inline-block;
+    font-family: "Plaster", sans-serif !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 2rem;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .scroller span {
+        font-size: 2rem;
+      }
+  }

@@ -1,0 +1,62 @@
+.contactPage {
+    padding: 20px;
+    background: #dafffd4a;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contactFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .coderGif {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .contactForm {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .submitButton {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+ 
+  
+  @media (min-width: 768px) {
+    .contactFormContainer {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .imageContainer {
+      margin-bottom: 0;
+      margin-right: 20px;
+    }
+  }
+  
