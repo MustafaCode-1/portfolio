@@ -1,3 +1,9 @@
 .backgroundContainer {
     height: 100vh;
+    background: url('../../assets/bg.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

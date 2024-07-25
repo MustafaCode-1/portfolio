@@ -4,7 +4,7 @@ import FontComp from "../FontComp/FontComp";
 
 const Home = () => {
   return (
-    <section style={{height:'100vh'}}>
+    <section >
       <AnimatedBG />
       <FontComp />
     </section>
